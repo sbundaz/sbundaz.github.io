@@ -3,9 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sbundaz's website</title>
+    <title>Andrea Bondanini - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>coming soon ...</p>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Andrea Bondanini</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Andrea Bondanini</h1>
+            <p class="subtitle">Software Engineer</p>
+            <div class="social-links">
+                <a href="mailto:bondaniniandrea@gmail.com" target="_blank">Email</a>
+                <a href="https://www.linkedin.com/in/andrea-bondanini-0a7b69b2/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/sbundaz" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a Software Engineer passionate about building scalable web applications, cloud solutions, and solid software architecture.</p>
+            <p>I believe in a pragmatic approach to technology, a means to solve real-world problems, not an end in itself. To me, programming languages are tools, each with its own philosophy, strengths, and quirks. I enjoy adapting to their mindset rather than following them dogmatically.</p>
+            <p>I'm always eager to learn, refine development processes, and collaborate within Agile teams. When I can, I love contributing to open-source projects.</p>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills-section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skills-tags">
+                    <span class="tag">C#</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Javascript</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Frameworks & Libraries</h3>
+                <div class="skills-tags">
+                    <span class="tag">.NET</span>
+                    <span class="tag">ASP.NET</span>
+                    <span class="tag">Entity Framework</span>
+                    <span class="tag">Razor</span>
+                    <span class="tag">LINQ</span>
+                    <span class="tag">NUnit</span>
+                </div>
+                <br>
+                <div class="skills-tags">
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">SQLAlchemy</span>
+                    <span class="tag">Pydantic</span>
+                    <span class="tag">Pytest</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Cloud & DevOps</h3>
+                <div class="skills-tags">
+                    <span class="tag">AWS</span>
+                    <span class="tag">IAM</span>
+                    <span class="tag">Lambda</span>
+                    <span class="tag">S3</span>
+                    <span class="tag">EC2</span>
+                    <span class="tag">API Gateway</span>
+                    <span class="tag">Cloudformation</span>
+                </div>
+                <br>
+                <div class="skills-tags">
+                    <span class="tag">Git</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">GitHub Pages (CI/CD)</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Architecture & Patterns</h3>
+                <div class="skills-tags">
+                    <span class="tag">Distributed Systems</span>
+                    <span class="tag">DDD</span>
+                    <span class="tag">CQRS</span>
+                    <span class="tag">REST API</span>
+                    <span class="tag">GraphQL</span>
+                    <span class="tag">RabbitMQ</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <div class="skills-tags">
+                    <span class="tag">SQL</span>
+                    <span class="tag">NoSQL</span>
+                    <span class="tag">ORMs</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Testing</h3>
+                <div class="skills-tags">
+                    <span class="tag">Unit Testing</span>
+                    <span class="tag">Integration Testing</span>
+                    <span class="tag">E2E Testing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Software Engineer</h3>
+                    <span class="date">October 2022 - August 2025</span>
+                </div>
+                <p class="company">Claranet Italia · Remote, Italy</p>
+                <ul>
+                    <li>Developed a Ruby on Rails platform for infrastructure automation at one of the leading Italian banks, used daily by about 100 DevOps professionals for development and inventory tasks.</li>
+                    <li>Delivered customized solutions to multiple enterprise clients, each with distinct tech stacks deployed on AWS cloud infrastructure.</li>
+                    <li>Developed a FastAPI-based plugin for Zoom video calls, integrating facial recognition APIs to enable hosts to identify participants in real time, used by one of the major online universities.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Software Engineer (.NET)</h3>
+                    <span class="date">March 2018 - September 2022</span>
+                </div>
+                <p class="company">Onit Group · Cesena, Italy</p>
+                <ul>
+                    <li>Led the architecture and development of a comprehensive healthcare management platform serving 60+ hospitals and 130+ polyclinics across Italy, handling patient journeys from booking to billing.</li>
+                    <li>Acted as Product Owner for a web-based business analysis tool enabling users to build interactive pivot tables and performance dashboards. Adopted by 5 major polyclinics to generate reports and monitor KPIs.</li>
+                    <li>Designed and implemented B2B REST API for a reservation system between pharmacies and hospitals adopted in 10 Italian regions.</li>
+                    <li>Refactored a legacy medical booking system, improving performance by over 50% (reduced average booking time from 10 to 4 seconds). Enhanced code maintainability by adding comprehensive test coverage and restructuring the algorithm for clarity and efficiency.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Software Engineer Intern</h3>
+                    <span class="date">January 2018 - March 2018</span>
+                </div>
+                <p class="company">Onit Group · Cesena, Italy</p>
+                <ul>
+                    <li>Developed an AI-powered virtual health assistant utilizing Natural Language Processing (NLP) and the Microsoft LUIS framework, enabling users to book appointments using natural language.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="experience-header">
+                    <h3>Bachelor of Science in Computer Science and Engineering</h3>
+                    <span class="date">2014 - 2018</span>
+                </div>
+                <p class="company">University of Bologna · Bologna, Italy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Andrea Bondanini</p>
+        </div>
+    </footer>
 </body>
 </html>
